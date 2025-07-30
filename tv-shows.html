@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone - TV Shows</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <!-- Same header as index.html -->
+        <div class="header-content">
+            <div class="header-left">
+                <a href="index.html" class="logo"><img src="https://i.ibb.co/r5krrdz/logo.png" alt="Netflix Logo"></a>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="index.html" class="nav-link">Home</a></li>
+                        <li><a href="tv-shows.html" class="nav-link active">TV Shows</a></li>
+                        <li><a href="movies.html" class="nav-link">Movies</a></li>
+                        <li><a href="my-list.html" class="nav-link">My List</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header-right">
+                <div class="search-box"><i class="fas fa-search"></i><input type="text" placeholder="Titles, people, genres"></div>
+                <i class="fas fa-bell"></i>
+                <a href="profile.html"><img src="https://placehold.co/40x40/e81f24/FFFFFF?text=P" alt="Profile" class="profile-icon"></a>
+                <button class="hamburger-menu"><i class="fas fa-bars"></i></button>
+            </div>
+        </div>
+    </header>
+     <nav class="mobile-nav">
+         <ul>
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="tv-shows.html" class="nav-link active">TV Shows</a></li>
+            <li><a href="movies.html" class="nav-link">Movies</a></li>
+            <li><a href="my-list.html" class="nav-link">My List</a></li>
+            <li><a href="profile.html" class="nav-link">Profile</a></li>
+        </ul>
+    </nav>
+    <main class="main-content page-content">
+        <h1 class="page-title">TV Shows</h1>
+        <div class="content-grid">
+            <!-- Row 1 -->
+            <div class="thumbnail" data-title="TV Show 1"><img src="https://placehold.co/400x225/E50914/FFF?text=Show+1" alt="Show 1"><div class="thumbnail-overlay"><button class="add-to-list-btn" title="Add to My List"><i class="fas fa-plus"></i></button></div></div>
+            <div class="thumbnail" data-title="TV Show 2"><img src="https://placehold.co/400x225/F40612/FFF?text=Show+2" alt="Show 2"><div class="thumbnail-overlay"><button class="add-to-list-btn" title="Add to My List"><i class="fas fa-plus"></i></button></div></div>
+            <div class="thumbnail" data-title="TV Show 3"><img src="https://placehold.co/400x225/B20710/FFF?text=Show+3" alt="Show 3"><div class="thumbnail-overlay"><button class="add-to-list-btn" title="Add to My List"><i class="fas fa-plus"></i></button></div></div>
+            <div class="thumbnail" data-title="TV Show 4"><img src="https://placehold.co/400x225/A50F16/FFF?text=Show+4" alt="Show 4"><div class="thumbnail-overlay"><button class="add-to-list-btn" title="Add to My List"><i class="fas fa-plus"></i></button></div></div>
+        </div>
+    </main>
+    <footer class="main-footer">
+        <!-- Same footer as index.html -->
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
