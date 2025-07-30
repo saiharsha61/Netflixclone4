@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone - Movies</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <!-- Same header as index.html -->
+        <div class="header-content">
+            <div class="header-left">
+                <a href="index.html" class="logo"><img src="https://i.ibb.co/r5krrdz/logo.png" alt="Netflix Logo"></a>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="index.html" class="nav-link">Home</a></li>
+                        <li><a href="tv-shows.html" class="nav-link">TV Shows</a></li>
+                        <li><a href="movies.html" class="nav-link active">Movies</a></li>
+                        <li><a href="my-list.html" class="nav-link">My List</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header-right">
+                <div class="search-box"><i class="fas fa-search"></i><input type="text" placeholder="Titles, people, genres"></div>
+                <i class="fas fa-bell"></i>
+                <a href="profile.html"><img src="https://placehold.co/40x40/e81f24/FFFFFF?text=P" alt="Profile" class="profile-icon"></a>
+                <button class="hamburger-menu"><i class="fas fa-bars"></i></button>
+            </div>
+        </div>
+    </header>
+    <nav class="mobile-nav">
+         <ul>
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="tv-shows.html" class="nav-link">TV Shows</a></li>
+            <li><a href="movies.html" class="nav-link active">Movies</a></li>
+            <li><a href="my-list.html" class="nav-link">My List</a></li>
+            <li><a href="profile.html" class="nav-link">Profile</a></li>
+        </ul>
+    </nav>
+    <main class="main-content page-content">
+        <h1 class="page-title">Movies</h1>
+        <div class="content-grid">
+            <!-- Row 1 -->
+            <div class="thumbnail" data-title="Movie 1"><img src="https://placehold.co/400x225/1A1A1A/FFF?text=Movie+1" alt="Movie 1"><div class="thumbnail-overlay"><button class="add-to-list-btn" title="Add to My List"><i class="fas fa-plus"></i></button></div></div>
+            <div class="thumbnail" data-title="Movie 2"><img src="https://placehold.co/400x225/2B2B2B/FFF?text=Movie+2" alt="Movie 2"><div class="thumbnail-overlay"><button class="add-to-list-btn" title="Add to My List"><i class="fas fa-plus"></i></button></div></div>
+            <div class="thumbnail" data-title="Movie 3"><img src="https://placehold.co/400x225/3C3C3C/FFF?text=Movie+3" alt="Movie 3"><div class="thumbnail-overlay"><button class="add-to-list-btn" title="Add to My List"><i class="fas fa-plus"></i></button></div></div>
+            <div class="thumbnail" data-title="Movie 4"><img src="https://placehold.co/400x225/4D4D4D/FFF?text=Movie+4" alt="Movie 4"><div class="thumbnail-overlay"><button class="add-to-list-btn" title="Add to My List"><i class="fas fa-plus"></i></button></div></div>
+            <!-- Row 2 -->
+            <div class="thumbnail" data-title="Movie 5"><img src="https://placehold.co/400x225/5E5E5E/FFF?text=Movie+5" alt="Movie 5"><div class="thumbnail-overlay"><button class="add-to-list-btn" title="Add to My List"><i class="fas fa-plus"></i></button></div></div>
+            <div class="thumbnail" data-title="Movie 6"><img src="https://placehold.co/400x225/6F6F6F/FFF?text=Movie+6" alt="Movie 6"><div class="thumbnail-overlay"><button class="add-to-list-btn" title="Add to My List"><i class="fas fa-plus"></i></button></div></div>
+            <div class="thumbnail" data-title="Movie 7"><img src="https://placehold.co/400x225/808080/FFF?text=Movie+7" alt="Movie 7"><div class="thumbnail-overlay"><button class="add-to-list-btn" title="Add to My List"><i class="fas fa-plus"></i></button></div></div>
+            <div class="thumbnail" data-title="Movie 8"><img src="https://placehold.co/400x225/919191/FFF?text=Movie+8" alt="Movie 8"><div class="thumbnail-overlay"><button class="add-to-list-btn" title="Add to My List"><i class="fas fa-plus"></i></button></div></div>
+        </div>
+    </main>
+    <footer class="main-footer">
+        <!-- Same footer as index.html -->
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
