@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Main Header -->
+    <header class="main-header">
+        <div class="header-content">
+            <div class="header-left">
+                <a href="index.html" class="logo">
+                    <img src="https://i.ibb.co/r5krrdz/logo.png" alt="Netflix Logo">
+                </a>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="index.html" class="nav-link active">Home</a></li>
+                        <li><a href="tv-shows.html" class="nav-link">TV Shows</a></li>
+                        <li><a href="movies.html" class="nav-link">Movies</a></li>
+                        <li><a href="my-list.html" class="nav-link">My List</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header-right">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Titles, people, genres">
+                </div>
+                <i class="fas fa-bell"></i>
+                <a href="profile.html">
+                    <img src="https://placehold.co/40x40/e81f24/FFFFFF?text=P" alt="Profile" class="profile-icon">
+                </a>
+                <button class="hamburger-menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation -->
+    <nav class="mobile-nav">
+        <ul>
+            <li><a href="index.html" class="nav-link active">Home</a></li>
+            <li><a href="tv-shows.html" class="nav-link">TV Shows</a></li>
+            <li><a href="movies.html" class="nav-link">Movies</a></li>
+            <li><a href="my-list.html" class="nav-link">My List</a></li>
+            <li><a href="profile.html" class="nav-link">Profile</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section" style="background-image: url('https://placehold.co/1920x1080/000000/e50914?text=EPIC+MOVIE+POSTER');">
+        <div class="hero-content">
+            <h1 class="hero-title">Spectacular Action Movie</h1>
+            <p class="hero-description">A thrilling adventure that will keep you on the edge of your seat. Witness breathtaking visuals and a story of heroism against all odds.</p>
+            <div class="hero-buttons">
+                <button class="btn btn-play"><i class="fas fa-play"></i> Play</button>
+                <button class="btn btn-info"><i class="fas fa-info-circle"></i> More Info</button>
+            </div>
+        </div>
+        <div class="hero-fade"></div>
+    </section>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+        <!-- Content Row 1 -->
+        <section class="content-row">
+            <h2 class="row-title">Trending Now</h2>
+            <div class="row-inner">
+                <div class="thumbnail" data-title="Action Thriller 1">
+                    <img src="https://placehold.co/400x225/111/FFF?text=Action+1" alt="Trending 1">
+                    <div class="thumbnail-overlay">
+                        <button class="add-to-list-btn" title="Add to My List"><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+                <div class="thumbnail" data-title="Sci-Fi Adventure">
+                    <img src="https://placehold.co/400x225/222/FFF?text=Sci-Fi" alt="Trending 2">
+                     <div class="thumbnail-overlay">
+                        <button class="add-to-list-btn" title="Add to My List"><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+                <div class="thumbnail" data-title="Comedy Special">
+                    <img src="https://placehold.co/400x225/333/FFF?text=Comedy" alt="Trending 3">
+                     <div class="thumbnail-overlay">
+                        <button class="add-to-list-btn" title="Add to My List"><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+                <div class="thumbnail" data-title="Drama Series">
+                    <img src="https://placehold.co/400x225/444/FFF?text=Drama" alt="Trending 4">
+                     <div class="thumbnail-overlay">
+                        <button class="add-to-list-btn" title="Add to My List"><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+                 <div class="thumbnail" data-title="Documentary Film">
+                    <img src="https://placehold.co/400x225/555/FFF?text=Doc" alt="Trending 5">
+                     <div class="thumbnail-overlay">
+                        <button class="add-to-list-btn" title="Add to My List"><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+                 <div class="thumbnail" data-title="Animated Feature">
+                    <img src="https://placehold.co/400x225/666/FFF?text=Animation" alt="Trending 6">
+                     <div class="thumbnail-overlay">
+                        <button class="add-to-list-btn" title="Add to My List"><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Content Row 2 -->
+        <section class="content-row">
+            <h2 class="row-title">Popular on Netflix</h2>
+            <div class="row-inner">
+                <div class="thumbnail" data-title="Popular Movie 1">
+                    <img src="https://placehold.co/400x225/990000/FFF?text=Popular+1" alt="Popular 1">
+                     <div class="thumbnail-overlay">
+                        <button class="add-to-list-btn" title="Add to My List"><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+                <div class="thumbnail" data-title="Popular Show 2">
+                    <img src="https://placehold.co/400x225/A52A2A/FFF?text=Popular+2" alt="Popular 2">
+                     <div class="thumbnail-overlay">
+                        <button class="add-to-list-btn" title="Add to My List"><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+                <div class="thumbnail" data-title="Popular Movie 3">
+                    <img src="https://placehold.co/400x225/B22222/FFF?text=Popular+3" alt="Popular 3">
+                     <div class="thumbnail-overlay">
+                        <button class="add-to-list-btn" title="Add to My List"><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+                <div class="thumbnail" data-title="Popular Show 4">
+                    <img src="https://placehold.co/400x225/800000/FFF?text=Popular+4" alt="Popular 4">
+                     <div class="thumbnail-overlay">
+                        <button class="add-to-list-btn" title="Add to My List"><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+                <div class="thumbnail" data-title="Popular Movie 5">
+                    <img src="https://placehold.co/400x225/8B0000/FFF?text=Popular+5" alt="Popular 5">
+                     <div class="thumbnail-overlay">
+                        <button class="add-to-list-btn" title="Add to My List"><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-social">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-youtube"></i>
+        </div>
+        <div class="footer-links">
+            <div class="footer-column">
+                <a href="#">Audio Description</a>
+                <a href="#">Investor Relations</a>
+                <a href="#">Legal Notices</a>
+            </div>
+            <div class="footer-column">
+                <a href="#">Help Center</a>
+                <a href="#">Jobs</a>
+                <a href="#">Cookie Preferences</a>
+            </div>
+            <div class="footer-column">
+                <a href="#">Gift Cards</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Corporate Information</a>
+            </div>
+            <div class="footer-column">
+                <a href="#">Media Center</a>
+                <a href="#">Privacy</a>
+                <a href="#">Contact Us</a>
+            </div>
+        </div>
+        <div class="footer-service">
+            <button>Service Code</button>
+        </div>
+        <p class="footer-copyright">&copy; 1997-2025 Netflix, Inc.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
